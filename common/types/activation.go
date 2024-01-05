@@ -22,7 +22,7 @@ func BytesToATXID(buf []byte) (id ATXID) {
 	return id
 }
 
-// ATXID is a 32-bit hash used to identify an activation transaction.
+// ATXID is a 32 byte hash used to identify an activation transaction.
 type ATXID Hash32
 
 const (
